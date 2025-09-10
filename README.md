@@ -51,7 +51,6 @@ The project demonstrates the use of **classes, objects, inheritance, polymorphis
 
 
 
----
 
 ## ⚙️ Installation & Running
 
@@ -60,10 +59,40 @@ The project demonstrates the use of **classes, objects, inheritance, polymorphis
 git clone https://github.com/Sefat3674/OOP-project-with-Kotlin.git
 cd OOP-project-with-Kotlin
 kotlinc models/*.kt services/*.kt Main.kt -include-runtime -d CoffeeMachine.jar
-Run the Project
 java -jar CoffeeMachine.jar
 
+```
+📝 Example Usage
+
+Welcome to Kotlin Coffee Machine!
+Select an option:
+1. Espresso
+2. Latte
+3. Cappuccino
+4. Refill Resources
+5. Exit
+The machine will update resources after each coffee made.
+Alerts if water, milk, coffee, or cups run low.
 
 
+**💻 Technologies Used**
+Kotlin 1.8
+OOP Principles
+JVM
 
 
+**📚 Learning Outcomes**
+Practice OOP concepts in Kotlin
+Model real-world systems using classes and objects
+Work with Kotlin console input/output
+Build a modular, maintainable codebase
+
+**🛡️ License**
+This project is licensed under the MIT License. See the LICENSE
+ file for details.
+
+
+---
+
+Made by 
+SEFAT AHMED

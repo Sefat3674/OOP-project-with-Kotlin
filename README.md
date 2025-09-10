@@ -75,24 +75,24 @@ The machine will update resources after each coffee made.
 Alerts if water, milk, coffee, or cups run low.
 
 
-**💻 Technologies Used**
+## 💻 Technologies Used
 Kotlin 1.8
 OOP Principles
 JVM
 
 
-**📚 Learning Outcomes**
+## 📚 Learning Outcomes
 Practice OOP concepts in Kotlin
 Model real-world systems using classes and objects
 Work with Kotlin console input/output
 Build a modular, maintainable codebase
 
-**🛡️ License**
+## 🛡️ License
 This project is licensed under the MIT License. See the LICENSE
  file for details.
 
 
 ---
 
-Made by 
+## Made by 
 SEFAT AHMED

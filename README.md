@@ -71,8 +71,7 @@ Select an option:
 3. Cappuccino
 4. Refill Resources
 5. Exit
-The machine will update resources after each coffee made.
-Alerts if water, milk, coffee, or cups run low.
+
 
 
 ## 💻 Technologies Used

@@ -36,14 +36,7 @@ The project demonstrates the use of **classes, objects, inheritance, polymorphis
 
 ## 🛠️ Project Structure
 
-OOP-project-with-Kotlin/
-│
-├─ models/
-│ ├─ CoffeeMachine.kt
-│ ├─ Coffee.kt
-│ └─ ...
-├─ services/
-│ ├─ CoffeeService.kt
-│ └─ ...
-├─ Main.kt
-└─ README.md
+<img width="241" height="307" alt="image" src="https://github.com/user-attachments/assets/f758d0c4-e75e-4eff-ba07-fe629fe0e0c8" />
+
+
+

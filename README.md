@@ -36,7 +36,34 @@ The project demonstrates the use of **classes, objects, inheritance, polymorphis
 
 ## 🛠️ Project Structure
 
-<img width="241" height="307" alt="image" src="https://github.com/user-attachments/assets/f758d0c4-e75e-4eff-ba07-fe629fe0e0c8" />
+<img width="656" height="272" alt="image" src="https://github.com/user-attachments/assets/c3239df7-7a0b-458a-b06e-16bd7b1d4005" />
+
+
+
+---
+
+## 🖼️ UML Diagram
+
+> **Placeholder**: Add your UML diagram here (class diagram showing CoffeeMachine, Coffee, and other classes).
+
+<img width="463" height="474" alt="image" src="https://github.com/user-attachments/assets/8cb0e736-9710-47df-b662-9c8cf10e4944" />
+<img width="413" height="404" alt="image" src="https://github.com/user-attachments/assets/772086dc-1fbb-4894-9c12-0cdf4034dc40" />
+
+
+
+---
+
+## ⚙️ Installation & Running
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Sefat3674/OOP-project-with-Kotlin.git
+cd OOP-project-with-Kotlin
+kotlinc models/*.kt services/*.kt Main.kt -include-runtime -d CoffeeMachine.jar
+Run the Project
+java -jar CoffeeMachine.jar
+
+
 
 
 

@@ -1,3 +1,8 @@
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Project-blue)](https://github.com/Sefat3674/OOP-project-with-Kotlin)
+[![Language](https://img.shields.io/badge/Kotlin-1.8-orange)](https://kotlinlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+
 # OOP-project-with-Kotlin
 My Goal is to create so many OOP project  that Clear my OOP concept as well as the concept of making mobile application by Kotlin
 

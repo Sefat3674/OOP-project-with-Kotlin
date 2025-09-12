@@ -30,7 +30,72 @@ Users can view movies, rate them, get recommendations, and track their watched m
 <img width="441" height="428" alt="image" src="https://github.com/user-attachments/assets/7a236c42-905f-4f65-be45-ab8e7abba42f" />
 
 
+
 ---
+## **UML Diagram**
+
+┌─────────────────────┐
+│       Movie         │
+├─────────────────────┤
+│ - title: String     │
+│ - year: Int         │
+├─────────────────────┤
+│ + getRecommendationScore(user: User): Double │
+└─────────────────────┘
+          ▲
+          │
+  ┌───────┴────────┐
+  │                │
+┌───────────┐   ┌───────────┐   ┌───────────┐
+│  Action   │   │  Drama    │   │  Comedy   │
+├───────────┤   ├───────────┤   ├───────────┤
+│ - stunLevel: Int │ - dramaLevel: Int │ - humorLevel: Int │
+├───────────┤   ├───────────┤   ├───────────┤
+│ + getRecommendationScore(user: User): Double │
+└───────────┘   └───────────┘   └───────────┘
+
+
+┌─────────────────────┐
+│        User         │
+├─────────────────────┤
+│ - name: String      │
+│ - genrePreferences: Map<String, Double> │
+│ - watchedMovies: List<Movie>            │
+├─────────────────────┤
+│ + watchMovie(movie: Movie)             │
+│ + rateMovie(movie: Movie, rating: Double) │
+└─────────────────────┘
+
+
+┌─────────────────────────────┐
+│     RecommendationActions   │  <<abstract>>
+├─────────────────────────────┤
+│ + recommendMovie(user: User): Movie │
+│ + addRating(user: User, movie: Movie, rating: Double) │
+└─────────────────────────────┘
+          ▲
+          │
+┌─────────────────────────────┐
+│       MovieLibrary          │
+├─────────────────────────────┤
+│ - movies: List<Movie>       │
+│ - userHistory: Map<User, Map<Movie, Double>> │
+├─────────────────────────────┤
+│ + recommendMovie(user: User): Movie │
+│ + addRating(user: User, movie: Movie, rating: Double) │
+└─────────────────────────────┘
+
+
+┌─────────────────────┐
+│      DataLoader     │
+├─────────────────────┤
+│ + loadMovies(csvPath: String): List<Movie> │
+│ + loadUsers(csvPath: String): List<User>  │
+└─────────────────────┘
+
+
+
+
 
 ## **How to Run**
 

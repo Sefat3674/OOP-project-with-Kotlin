@@ -1,6 +1,6 @@
 # ☕ OOP Coffee Machine Project (Kotlin)
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Project-blue)](https://github.com/Sefat3674/OOP-project-with-Kotlin)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Project-blue)]([https://github.com/Sefat3674/OOP-project-with-Kotlin](https://github.com/Sefat3674/OOP-project-with-Kotlin/tree/Coffee_machine_with_OOP_KOTLIN))
 [![Language](https://img.shields.io/badge/Kotlin-1.8-orange)](https://kotlinlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 

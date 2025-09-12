@@ -33,68 +33,9 @@ Users can view movies, rate them, get recommendations, and track their watched m
 
 ---
 ## **UML Diagram**
-
-┌─────────────────────┐
-│       Movie         │
-├─────────────────────┤
-│ - title: String     │
-│ - year: Int         │
-├─────────────────────┤
-│ + getRecommendationScore(user: User): Double │
-└─────────────────────┘
-          ▲
-          │
-  ┌───────┴────────┐
-  │                │
-┌───────────┐   ┌───────────┐   ┌───────────┐
-│  Action   │   │  Drama    │   │  Comedy   │
-├───────────┤   ├───────────┤   ├───────────┤
-│ - stunLevel: Int │ - dramaLevel: Int │ - humorLevel: Int │
-├───────────┤   ├───────────┤   ├───────────┤
-│ + getRecommendationScore(user: User): Double │
-└───────────┘   └───────────┘   └───────────┘
-
-
-┌─────────────────────┐
-│        User         │
-├─────────────────────┤
-│ - name: String      │
-│ - genrePreferences: Map<String, Double> │
-│ - watchedMovies: List<Movie>            │
-├─────────────────────┤
-│ + watchMovie(movie: Movie)             │
-│ + rateMovie(movie: Movie, rating: Double) │
-└─────────────────────┘
-
-
-┌─────────────────────────────┐
-│     RecommendationActions   │  <<abstract>>
-├─────────────────────────────┤
-│ + recommendMovie(user: User): Movie │
-│ + addRating(user: User, movie: Movie, rating: Double) │
-└─────────────────────────────┘
-          ▲
-          │
-┌─────────────────────────────┐
-│       MovieLibrary          │
-├─────────────────────────────┤
-│ - movies: List<Movie>       │
-│ - userHistory: Map<User, Map<Movie, Double>> │
-├─────────────────────────────┤
-│ + recommendMovie(user: User): Movie │
-│ + addRating(user: User, movie: Movie, rating: Double) │
-└─────────────────────────────┘
-
-
-┌─────────────────────┐
-│      DataLoader     │
-├─────────────────────┤
-│ + loadMovies(csvPath: String): List<Movie> │
-│ + loadUsers(csvPath: String): List<User>  │
-└─────────────────────┘
-
-
-
+<img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/43d7d99e-d932-4438-84dc-8383b3f72c4f" />
+<img width="425" height="354" alt="image" src="https://github.com/user-attachments/assets/b242e6c4-c3b9-4f7c-87a7-f179f3612501" />
+<img width="411" height="382" alt="image" src="https://github.com/user-attachments/assets/f13ec88c-092a-41b2-97a9-c1e2b3878b03" />
 
 
 ## **How to Run**

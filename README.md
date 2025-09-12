@@ -41,8 +41,8 @@ Users can view movies, rate them, get recommendations, and track their watched m
 ---
 ## **UML Diagram**
 <img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/43d7d99e-d932-4438-84dc-8383b3f72c4f" /><br>
-<img width="425" height="354" alt="image" src="https://github.com/user-attachments/assets/b242e6c4-c3b9-4f7c-87a7-f179f3612501" /><br>
-<img width="411" height="382" alt="image" src="https://github.com/user-attachments/assets/f13ec88c-092a-41b2-97a9-c1e2b3878b03" /> <img width="1024" height="1536" alt="ChatGPT Image Sep 12, 2025, 03_31_05 PM" src="https://github.com/user-attachments/assets/06e30cdd-0316-444a-a7b7-499ac2981b52" />
+<img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/b242e6c4-c3b9-4f7c-87a7-f179f3612501" /><br>
+<img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/f13ec88c-092a-41b2-97a9-c1e2b3878b03" /> <img width="500" height="400" alt="ChatGPT Image Sep 12, 2025, 03_31_05 PM" src="https://github.com/user-attachments/assets/06e30cdd-0316-444a-a7b7-499ac2981b52" />
 
 
 

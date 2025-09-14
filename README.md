@@ -12,8 +12,11 @@ https://github.com/Sefat3674/OOP-project-with-Kotlin/tree/Coffee_machine_with_OO
 # 2. Movie Recommendation
 https://github.com/Sefat3674/OOP-project-with-Kotlin/tree/Movie_Recommendatin_OOP_Project
 
+# 3. Hospital Management System
+https://github.com/Sefat3674/OOP-project-with-Kotlin/tree/Hospital_Management_System
 
-# 3. 🚖 Kotlin Ride-Hailing Application
+
+# 4. 🚖 Kotlin Ride-Hailing Application
 
 A simple console-based **ride-hailing system** implemented in Kotlin. Users can book rides, track drivers, and manage a list of drivers dynamically. The system supports multiple vehicle types and calculates fares based on distance.
 

@@ -90,7 +90,7 @@ kotlin -classpath HospitalManagement.jar MainKt
 
 ```
 
-Sample Menu
+## **Sample Menu**
 ===== Hospital Management System =====
 1. Add Patient
 2. Add Doctor
@@ -101,5 +101,5 @@ Sample Menu
 Choose an option:
 
 
-Author
+## **Author**
 Sefat Ahmed

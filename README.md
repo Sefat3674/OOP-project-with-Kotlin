@@ -1,84 +1,68 @@
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Project-blue)](https://github.com/Sefat3674/OOP-project-with-Kotlin)
-[![Language](https://img.shields.io/badge/Kotlin-1.8-orange)](https://kotlinlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+# Office Attendance System (Kotlin)
 
-
-
-
-# 🎬 Movie Recommendation System (OOP in Kotlin)
-
-A console-based **Movie Recommendation System** implemented in **Kotlin** using **Object-Oriented Programming (OOP)** principles.  
-Users can view movies, rate them, get recommendations, and track their watched movies.
+A console-based Office Attendance Management System implemented in **Kotlin**, allowing **employees** and **officers** to manage and track attendance records efficiently.
 
 ---
 
-## **Features**
+## Features
 
-1. **View All Movies** – Lists all movies in the library with type and year.  
-2. **Rate a Movie** – Allows the user to rate any movie (1–5 stars). Updates user genre preferences dynamically.  
-3. **Get Recommendations** – Displays top recommended movies for the user based on ratings and preferences.  
-4. **Add a New Movie** – Add new Action, Drama, or Comedy movies dynamically.  
-5. **View Watched Movies & Ratings** – Shows all movies rated by the user.  
-6. **Exit** – Exit the program gracefully.  
+### Employee
+- Sign up with a unique Employee ID.
+- Login using Employee ID.
+- Add daily attendance with:
+  - Date (automatically set to today)
+  - Arrival time
+  - Automatic late detection (threshold: 08:30)
+  - Optional late cause
+- View monthly attendance records.
+
+### Officer
+- Sign up with a unique Officer ID and username.
+- Login using username and password.
+- View specific employee attendance records.
+
+---
+
+## Project Structure
+
+<img width="313" height="399" alt="image" src="https://github.com/user-attachments/assets/ad2b2ff9-5076-4eff-bd95-d4d1fad50174" />
+
+- **model/** – Kotlin data classes: Employee, Officer, Attendance.  
+- **data/** – Singleton `DataManager` for storing employees and officers.  
+- **utils/** – Utility classes for date operations and unique ID generation.  
+- **main/** – Main program entry point with CLI menu.  
 
 ---
 
-## **OOP Principles Used**
-
-- **Encapsulation** – User preferences, ratings, and watched movies are managed inside the `User` class.  
-- **Inheritance** – `Action`, `Drama`, `Comedy` inherit from the base `Movie` class.  
-- **Polymorphism** – `getRecommendationScore(user: User)` is overridden in subclasses for different scoring logic.  
-- **Abstraction** – Abstract class `RecommendationActions` defines actions for rating and recommending movies.  
+## Technologies
+- Kotlin 1.8+  
+- Console-based CLI application  
+- JDK 17+ recommended  
 
 ---
 
-## **Project Structure**
+## Getting Started
 
-<img width="441" height="428" alt="image" src="https://github.com/user-attachments/assets/7a236c42-905f-4f65-be45-ab8e7abba42f" />
-
-
-
----
-## **UML Diagram**
-<img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/43d7d99e-d932-4438-84dc-8383b3f72c4f" /><br>
-<img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/b242e6c4-c3b9-4f7c-87a7-f179f3612501" /><br>
-<img width="428" height="392" alt="image" src="https://github.com/user-attachments/assets/f13ec88c-092a-41b2-97a9-c1e2b3878b03" /> <img width="600" height="500" alt="ChatGPT Image Sep 12, 2025, 03_31_05 PM" src="https://github.com/user-attachments/assets/06e30cdd-0316-444a-a7b7-499ac2981b52" />
-
-
-
-## **How to Run**
-
-1. **Compile the project** (from `src` folder):
+### Compile
 
 ```bash
-kotlinc models/*.kt library/*.kt Main.kt -include-runtime -d MovieRecommendationSystem.jar
-java -jar MovieRecommendationSystem.jar
+kotlinc src/com/model/*.kt src/com/data/*.kt src/com/utils/*.kt src/com/main/*.kt -include-runtime -d officeattendance.jar
+java -jar officeattendance.jar
 ```
-## **Sample of Usage**
 
-🎬 Welcome to the Movie Recommendation System!
-
---- Menu ---
-1. View All Movies
-2. Rate a Movie
-3. Get Recommendations
-4. Exit
-5. Add a New Movie
-6. View Watched Movies & Ratings
-Choose an option (1-6):
-
-
-## *Technologies Used*
-Kotlin
-Object-Oriented Programming (OOP)
-JVM
+<img width="358" height="330" alt="image" src="https://github.com/user-attachments/assets/70732a20-8e10-4edf-bdf0-afeac18dcbe6" /><br>
+<img width="464" height="188" alt="image" src="https://github.com/user-attachments/assets/536da629-bf5c-4ac1-b64f-0ef1c33c5870" />
 
 
 ---
 
-If you want, I can also **create a shorter, GitHub-ready version with badges and emoji icons** to make it look more aesthetic for your repository.  
+If you want, I can also **update it to include a small UML diagram and sample console screenshots** so it looks professional for GitHub.  
 
 Do you want me to do that?
 
-## *Made by*
-## SEFAT AHMED
+### Made by
+## SEFAT
+
+##### This is my Continous Project. I will update regularly
+
+
